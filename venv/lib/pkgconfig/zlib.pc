@@ -1,0 +1,13 @@
+prefix=/home/nischal/PycharmProjects/MLProject/venv
+exec_prefix=/home/nischal/PycharmProjects/MLProject/venv
+libdir=/home/nischal/PycharmProjects/MLProject/venv/lib
+sharedlibdir=/home/nischal/PycharmProjects/MLProject/venv/lib
+includedir=/home/nischal/PycharmProjects/MLProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
